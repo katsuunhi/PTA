@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1582622726 source:d:\cs\pta\test\sharing\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
