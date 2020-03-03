@@ -1,0 +1,36 @@
+vector<type>c;创建一个空的vector容器。
+vector<type> c1(c2);复制一个vector。
+vector<type> c(n);创建一个vector,含有n个数据，数据均以缺省构造产生,即全0；
+vector<type> c(n,elem)创建一个vector,含有n个elem的拷贝数据。
+vector<type> c(beg,end)创建一个以[beg,end)区间的vector。
+~vector<type>()   销毁所有数据,施放内存。
+
+c.push_back(elem)在尾部插入一个elem数据。
+c.pop_back()删除末尾的数据。
+c.assign (n,elem)将n个elem的拷贝赋值给c。
+c.assign(beg,end)将[beg,end)一个左闭右开区间的数据赋值给c。
+c.at(int index)传回索引为index的数据,如果index越界,抛出out_of_range异常。
+
+c.front()返回第一个数据。
+c.back()传回最后一个数据,不检查这个数据是否存在。
+c.begin()返回指向第一个数据的迭代器。
+c.end()返回指向最后一个数据之后的迭代器。
+c.rbegin()返回逆向队列的第一个数据,即c容器的最后一个数据。
+c.rend()返回逆向队列的最后一个数据的下一个位置,即c容器的第一个数据再往前的一个位置。
+c.capacity()返回容器中数据个数,翻倍增长。
+c.empty()判断容器是否为空。
+
+c.clear()移除容器中的所有数据。
+c.erase(pos)删除pos位置的数据,传回下一个数据的位置。
+c.erase(beg,end)删除[beg,end)区间的数据，传回下一个数据的位置。
+
+c.insert(pos,elem) 在pos位置插入一个elem的拷贝,返回插入的值的迭代器。
+
+c.insert(pos,n,elem)在pos位置插入n个elem的数据,无返回值。
+c.insert(pos,beg,end)在pos位置插入在[beg,end)区间的数据,无返回值。
+c.size()返回容器中实际数据的个数。
+
+c.resize(num)重新指定队列的长度。（往往用来增加vector的长度,小->大 ok 大->小 没用！）
+c.reserve()保留适当的容量。
+c1.swap(c2)将c1和c2交换。
+swap(c1,c2)同上。

@@ -1,0 +1,12 @@
+map<long long,bool>mp;
+map<string,int>mp;
+map<pair<int,int>,vector<int>>mp;
+
+map.empty()
+map.clear()
+
+map.count(x)
+map.find(x)
+
+map.insert(pair<...,...>)
+map.erase(²ÎÊı)
