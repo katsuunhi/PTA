@@ -10,3 +10,5 @@
 8.格式转换 stringstream对应string，sprintf和sscanf对应char [];
 
 9. 1082用中文的方式读数字，有点麻烦，但是不难，最后再看吧
+
+10. 中点的表示方法为   (v.size()-1)/2
