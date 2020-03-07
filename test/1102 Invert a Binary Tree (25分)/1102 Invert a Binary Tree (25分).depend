@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1583568751 source:d:\cs\pta\test\1102 invert a binary tree (25·Ö)\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
+1583574363 source:d:\cs\pta\test\1102 invert a binary tree (25·Ö)\dfs.cpp
+	<bits/stdc++.h>
+
