@@ -5,6 +5,12 @@ int v[10010][10010] ={0};
 int l[10010] = {0};
 int cnt = 0;
 void f(int a, int b, int c, int d){
+    if(b == d){
+        while(a < c){
+            v[a ++][b] = l[cnt ++];
+        }
+    }
+
     for(int i = b; i <= d; i ++)
         v[a][i] = l[cnt++];
     for(int i = a+1; i <= c; i ++)
@@ -31,11 +37,11 @@ int main()
         }
     }
     c--;d--;
-    if(d == 0){
-        for(int i = 0; i < n; i ++)
-        cout << l[i] << endl;
-        return 0;
-    }
+//    if(d == 0){
+//        for(int i = 0; i < n; i ++)
+//        cout << l[i] << endl;
+//        return 0;
+//    }
 
     int C = c, D = d;
     while(b <= d){

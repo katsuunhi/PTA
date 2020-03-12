@@ -1,0 +1,3 @@
+思路： 用一个set一个vector，分别记录节点个数和路径，判断set中数量、k的大小、vector中第一个数据和最后一个是否相同、vector相邻元素是否有路径，来决定是否构成Hamilton cycle
+
+问题： int v[n][n]={0}；n过大会出现段错误
