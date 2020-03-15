@@ -1,0 +1,4 @@
+思路：
+cmp函数    return a+b < b+a;
+
+去除前面的0可以用ss转换   或者while训练判断
