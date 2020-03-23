@@ -28,7 +28,6 @@ int main()
             else    m[str] ++;
             str.clear();
         }
-
     }
     for(auto it : m){
         s.insert({it.first, it.second});
